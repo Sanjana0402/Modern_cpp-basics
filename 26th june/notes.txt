@@ -1,0 +1,24 @@
+Week agenda
+
+    week 2 : functional programming
+
+supplementary concepts 
+
+    1) containers in c++
+        ->vector and C-style array
+
+    2) Move semantics
+
+    3) RAII classes
+
+    4) Git version control
+
+    5) Command line utilities
+
+    6) How to interact with large scale projects
+
+    7) recurssion and other styles of programming
+
+
+    
+                                                                

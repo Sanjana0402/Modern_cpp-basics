@@ -1,0 +1,14 @@
+Data Structure and Algorithms
+    -Adam Dorzdek
+
+
+a) DS are arrangements of data, different ways of retrieving or accessing data
+
+b) DS are theoretical and philosophical. They have to be implemented through code
+
+c) Implementation of DS on different platforms  or in different libraries may differ in behaviour
+
+d) There are "infinite" data structures in the world
+
+e) DS Implementation have to follow the language 
+

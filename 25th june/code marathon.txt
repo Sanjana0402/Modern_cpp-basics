@@ -1,0 +1,29 @@
+code on 24th june
+Class Automobile
+
+    - m_id : string --> Unique booking Id for the Automobile booked
+    - m_type : enum --> PRIVATE, COMMERCIAL, DEFENSE, SPECIAL_SERVICES
+    - m_engine_horsepower : unsigned int --> Indicates the horsepower for the engine 
+    - m_seat_count : unsigned int --> Indicates the seat count
+
+Automobile class should also have
+
+    Parameterized Constructor (None) : string,float,int --> constructor to instantiate all parameters with suitable default values.
+
+    Default Constructor (None) : string --> constructor to instantiate all parameters with suitable default values
+
+    CalculationMaintainanceCost (float) : None --> This function should return a float value based on the following :
+            - for m_engine_horsepower below 500, amount is 12% of m_engine_power*m_seat_count
+            - for m_engine_horsepower 500 or above, amount is 15% of m_engine_power*m_seat_count
+
+
+Functionalities.cpp
+
+    CreateObjects (void) : Data Container --> create objects with suitable data on heap. Pointers to objects must be stored in the Data Container
+
+    TotalHorsepower (void) : Data Container -->Display the total of values returned for m_engine_horsepower data for all objects in the Data Container
+
+    FindSeatCountForGivenId (void) : Data Container (string) --> Display the m_seat_count for the Automobile instances whose m_id value matches with second parameter passed to the function
+
+    MaintainanceCostForAutomobile (void) : Data Container --> Display the result of CalculationMaintainanceCost functioncalled for each object in the Data Container
+

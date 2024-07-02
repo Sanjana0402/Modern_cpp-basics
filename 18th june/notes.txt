@@ -1,0 +1,103 @@
+Modern Cpp
+    - All versions of cpp since c++11
+
+CPP is revised/updated every 3 months
+
+so versions of c++ are : c++11, c++14, c++17
+
+
+     A -> Essentials of Modern CPP (fundametals)
+     B -> Functional programming in Modern CPP
+     C -> Concurrency & C++17
+     D -> STL DS & Algorithms
+
+
+    Feature 1:  In class initialization
+    Feature 2:  ENUM Class 
+
+    Feature 3: Enable/Disable special member functions 
+    aka defaulted/ deleted member functions
+
+    You can choose whether to enable or disable 6 special member functions for a class u r creating
+
+    1. Default Constructor
+    2. Destructor
+    3. Copy Constructor
+    4. Copy Assignment Operator (overload = operator)
+    5. Move Constructor (new feature in C++11)
+    6. Move Assignment Operator (overload = operatorto move)
+
+    Feature 4: NULL is replaced with nullptr
+    Feature 5: uniform initialization
+         
+         We can initialize variables  in a function using {}
+
+    
+    NULL alter name for 0
+
+
+    Employee* ptr = 0;//valid code
+
+    //do actions only on pointer type "NULL"?
+
+    Feature 6: member list initialization  
+
+    Feature 7: auto keyword
+               detect and infer the type of variables
+               BASED ON INITIAL VALUE
+
+     Feature 8: Constructor delegation
+          You can transfer/shift control of the program from one constructor to another IN THE SAME CLASS 
+
+     Feature 9: Additional numeric types with specific memory size
+
+
+
+     Feature 10: For-each(range-based for loop)
+
+     Feature 11: Emplace data in containers (in-place construction of values within the container)
+
+
+     Employee 1: 28
+     Employee 2: 35
+     Employee 3: 29
+
+
+     Arrangements or structuring of data
+
+     A) consecutively, one after the other in memory
+          a) No option for adding no data will be provided
+
+         [      28      |     35      |      29      ]
+             0 x 100H       0 x 104H      0 x 108H
+ 
+ 
+          b) We can add more data values if required, in future
+
+          [      28      |     35      |      29      ]
+             0 x 100H       0 x 104H      0 x 108H
+
+
+
+     Employee 4: 36
+
+         [      28      |     35      |      29     //////
+             0 x 100H       0 x 104H      0 x 108H  //////
+
+
+             TRANSFER DATA TO A NEW REGION IN  THE MEMORY
+         [      28      |     35      |      29         36
+             0 x 100H       0 x 104H      0 x 108H     0 X 208H
+
+
+             Vector stores data consecutively but there is capacity loss therefore data ais migrated 
+             this is not done usually as it will slow down the program terribly 
+             therefore we should not use this.............
+
+
+             if more info is added then vector is not the best choice as the system will crash after 1000s of records for more memory storage
+
+
+
+
+

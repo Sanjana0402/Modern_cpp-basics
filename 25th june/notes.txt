@@ -1,0 +1,18 @@
+make a software that "DOES SOMETHING" after account is registered with the bank
+
+
+DoSomething( action ){
+    action(emailID, number);
+}
+
+DoSomething( sendWelcomeEmail )
+
+DoSomething( sendWhatsappMsgAndEmail )
+
+
+
+findVowels:
+    scenario 1 : string value has at least 1 vowel ---> print it
+    scenario 2 : string has no vowel---->exception case --> std::cerr
+    scenario 3 : input container blank ---> exception case --> break frm loop(throw an exception)
+    scenario 4 : string is blank " "---->exception case ---> std::cerr

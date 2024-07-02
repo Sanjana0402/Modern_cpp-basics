@@ -1,0 +1,39 @@
+code on 1st july
+function.cpp
+
+CheckDivisibilityBy3  (bool) : int32_t --> The function should return true or false for checking if the number is divisible by 3 or not respectively
+
+CheckNaturalNumber (bool) : int32_t --> The function should return true or false for checking if the number is a natural number or not . (Positive number more than 0)
+
+CheckPrimeNumber (bool) : int32_t --> The function should return true or false for checking if the number is prime or not. (Positive number more than 0)
+
+ComputeSquare (void) : int32_t --> The function should display the square value of the input number provided
+
+ComputeFactorial (void) : unsigned int --> function should print the facttorial of a Positive numbers if the number is between 1 to 10. For a number above 10, throw an exception for invalid argument with a message "Number not valid".
+
+FindNumbers (void) : std::vector<int32_t>, Predicate function --> 
+
+    The function must 
+            - filter the input Container of integers and display all numbers satisfying the Predicate passed
+
+    Demonstrate
+            -CheckDivisibilityBy3
+            -CheckNaturalNumber
+            -CheckPrimeNumber
+
+            funtions by passing them to FilterNumbers function one by one
+
+
+MapOperation (void) : std::vector<int32_t>, Mapping function -->
+
+    function must 
+            -Apply the Mapping function received a sinput and display output in screen
+
+    Demonstrate
+            - ComputeSquare
+            - ComputeFactorial
+
+
+            funtions by passing them to MapOperation function one by one
+
+            
