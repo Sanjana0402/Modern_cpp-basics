@@ -59,7 +59,7 @@ public:
 
     void setAmt(const int32_t &amt) { m_amt = amt; }
 
-    static BankOperation* GetInstance(int val)
+    static BankOperation *GetInstance(int val)
     {
         if (m_instance_ptr)
         {
@@ -72,11 +72,9 @@ public:
             return m_instance_ptr;
         }
     }
-
-    
 };
 
-BankOperation* BankOperation::m_instance_ptr{nullptr};
+BankOperation *BankOperation::m_instance_ptr{nullptr};
 
 void CreateThreads(ThreadContainer &threads, BankOperation &b1)
 {
@@ -104,7 +102,7 @@ void DisplayFinalAmt(BankOperation &b1)
 int main()
 {
 
-    BankOperation* ptr = BankOperation::GetInstance(50000);
+    BankOperation *ptr = BankOperation::GetInstance(50000);
 
     ThreadContainer threads{}; // blank list of threads
     CreateThreads(threads, *ptr);
