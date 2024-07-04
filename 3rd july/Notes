@@ -1,0 +1,12 @@
+Cpp 17 :
+
+ - Variant
+ -If init
+ -structured binding
+
+ Concurrency
+ 
+  - std::thread
+  -join
+  -mutex
+  -OOP
