@@ -46,6 +46,10 @@
         "limits": "cpp",
         "typeinfo": "cpp",
         "list": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "future": "cpp",
+        "variant": "cpp"
     }
 }
