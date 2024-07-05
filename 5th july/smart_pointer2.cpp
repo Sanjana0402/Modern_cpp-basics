@@ -27,22 +27,21 @@ public:
     }
 };
 
-void Magic(std::unique_ptr <Data>&& temp){
-
-}
+// void Magic(std::unique_ptr<Data> &&temp)
+// {
+// }
 
 // resource : 4 bytes of memory on the heap used by data object with value 100
 
 int main()
 {
-  
+
     std::unique_ptr<Data> ptr4{new Data{100}};
     // std::unique_ptr<Data> ptr5{ptr4};
 
-    Magic(std::move(ptr4));
+    // Magic(std::move(ptr4));
 
     ptr4.reset(new Data{99});
-
 }
 
 /*
