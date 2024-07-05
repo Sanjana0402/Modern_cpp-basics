@@ -26,7 +26,7 @@ void Operations::FindAverageCost()
     for (const VrType v : m_data)
     {
         std::visit([&](auto &&val)
-                   { total += val->price(); }, v); // for every variant in my datacontainer i'll visitm
+                   { total += val->price(); }, v); // for every variant in my datacontainer i'll visit m
     }
 
     if (!m_data.empty())
