@@ -50,6 +50,13 @@
         "bitset": "cpp",
         "chrono": "cpp",
         "future": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "condition_variable": "cpp",
+        "ctime": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "ratio": "cpp",
+        "iomanip": "cpp",
+        "mutex": "cpp"
     }
 }
