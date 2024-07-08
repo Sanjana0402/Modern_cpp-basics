@@ -14,6 +14,7 @@ public:
    // Engine() = delete;
    Engine(const Engine& other)=delete;
    Engine& operator=(const Engine& other)=delete;
+   
    Engine(Engine&& other)=delete;
    Engine& operator=(Engine&& other)=delete;
 
@@ -27,8 +28,6 @@ public:
 
    float torque() const { return m_torque; }
    void setTorque(float torque) { m_torque = torque; }
-
-
    
 };
 
