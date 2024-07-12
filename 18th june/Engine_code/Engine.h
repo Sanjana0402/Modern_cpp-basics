@@ -21,7 +21,7 @@ public:
 
     Engine(Engine&&)=delete;//move constructor
 
-    Engine&& operator=(Engine&&)=delete;//move assignment operator
+    Engine& operator=(Engine&&)=delete;//move assignment operator
 
     ~Engine();
 

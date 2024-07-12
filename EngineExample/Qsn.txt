@@ -1,0 +1,12 @@
+Class engine should have the following attributes
+    -engine_id of type string
+    -engine_type which could br HYBRID, ICE or ALTERNATE_FUEL
+    -engine_cc which is a float value
+    -engine_torque which is float
+    -engine_horse_power which is an int value
+
+Create the following functionalities
+    1. Create 5 objects of the class Engine on the heap. Attach a shared_pointer to each object and emplace them into a list container
+    2. A function to return a container of shared_pointer to obj which satisfy the predicate function passed
+    3. A function to find and return if atleast one object meets the given predicate function
+    4. A function to find the average of m_cc and return the value
